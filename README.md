@@ -24,117 +24,25 @@ There are three iterations of the model. The first of which was trained on the M
 
 ### Model 1: MNIST Digits
 
-Below are the results for each of the best models trained on the MNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the MNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
 
+Total trained models: ~ 7000
 Total training time: ~ 72 hours
 
-##### Best Model
+##### Best Models
 
 > mean_val_accuracy: 0.994499, conv1: 256, conv2: 160, dense_units: 256, dropout_rate: 0.3, learning_rate: 0.000804, batch_size: 208
 
 ![](./results/mnist/208-best.png)
-
-<details>
-<summary>Click to expand</summary>
-
-###### Batch Size: 16
-
-> mean_val_accuracy: 0.993499, conv1: 160, conv2: 256, dense_units: 128, dropout_rate: 0.4, learning_rate: 0.000263, batch_size: 16
-
-![](./results/mnist/16-best.png)
-
-###### Batch Size: 32
-
-> mean_val_accuracy: 0.993749, conv1: 192, conv2: 224, dense_units: 192, dropout_rate: 0.6, learning_rate: 0.000844, batch_size: 32
-
-![](./results/mnist/32-best.png) 
-
-###### Batch Size: 48
-
-> mean_val_accuracy: 0.994000, conv1: 160, conv2: 256, dense_units: 256, dropout_rate: 0.4, learning_rate: 0.000396, batch_size: 48
-
-![](./results/mnist/64-best.png)
-
-###### Batch Size: 64
-
-> mean_val_accuracy: 0.993833, conv1: 160, conv2: 160, dense_units: 192, dropout_rate: 0.4, learning_rate: 0.000698, batch_size: 64
-
-![](./results/mnist/64-best.png)
-
-###### Batch Size: 80
-
-> mean_val_accuracy: 0.993166, conv1: 160, conv2: 128, dense_units: 160, dropout_rate: 0.7, learning_rate: 0.000615, batch_size: 80
-
-![](./results/mnist/80-best.png)
-
-###### Batch Size: 96
 
 > mean_val_accuracy: 0.994083, conv1: 256, conv2: 128, dense_units: 224, dropout_rate: 0.6, learning_rate: 0.000590, batch_size: 96
 
 ![](./results/mnist/96-best.png)
 
-###### Batch Size: 112
-
-> mean_val_accuracy: 0.993499, conv1: 64, conv2: 192, dense_units: 224, dropout_rate: 0.2, learning_rate: 0.000627, batch_size: 112
-
-![](./results/mnist/112-best.png)
-
-###### Batch Size: 128
-
-> mean_val_accuracy: 0.993833, conv1: 256, conv2: 128, dense_units: 224, dropout_rate: 0.6, learning_rate: 0.000449, batch_size: 128
-
-![](./results/mnist/128-best.png)
-
-###### Batch Size: 144
-
-> mean_val_accuracy: 0.993416, conv1: 128, conv2: 64, dense_units: 224, dropout_rate: 0.6, learning_rate: 0.000989, batch_size: 144
-
-![](./results/mnist/144-best.png)
-
-###### Batch Size: 160
-
-> mean_val_accuracy: 0.993833, conv1: 192, conv2: 224, dense_units: 224, dropout_rate: 0.8, learning_rate: 0.001038, batch_size: 160
-
-![](./results/mnist/160-best.png)
-
-###### Batch Size: 176
-
-> mean_val_accuracy: 0.993916, conv1: 64, conv2: 224, dense_units: 96, dropout_rate: 0.6, learning_rate: 0.001665, batch_size: 176
-
-![](./results/mnist/176-best.png)
-
-###### Batch Size: 192
-
 > mean_val_accuracy: 0.994000, conv1: 128, conv2: 192, dense_units: 160, dropout_rate: 0.5, learning_rate: 0.001392, batch_size: 192
 
 ![](./results/mnist/192-best.png)
 
-
-###### Batch Size: 208
-
-> mean_val_accuracy: 0.994499, conv1: 256, conv2: 160, dense_units: 256, dropout_rate: 0.3, learning_rate: 0.000804, batch_size: 208
-
-![](./results/mnist/208-best.png)
-
-###### Batch Size: 224
-
-> mean_val_accuracy: 0.993749, conv1: 192, conv2: 224, dense_units: 224, dropout_rate: 0.6, learning_rate: 0.000453, batch_size: 224
-
-![](./results/mnist/224-best.png)
-
-###### Batch Size: 240
-
-> mean_val_accuracy: 0.993583, conv1: 96, conv2: 224, dense_units: 192, dropout_rate: 0.7, learning_rate: 0.000664, batch_size: 240
-
-![](./results/mnist/240-best.png)
-
-###### Batch Size: 256
-
-> mean_val_accuracy: 0.993666, conv1: 192, conv2: 192, dense_units: 256, dropout_rate: 0.5, learning_rate: 0.000676, batch_size: 256
-
-![](./results/mnist/256-best.png)
-
-</details>
 
 ### Model 2: EMNIST Digits
 
