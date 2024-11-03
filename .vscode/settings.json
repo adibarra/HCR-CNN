@@ -20,8 +20,11 @@
         "imshow",
         "Keras",
         "MNIST",
+        "opencv",
         "relu",
         "softmax",
+        "tfds",
+        "torchvision",
         "xlabel",
         "ylabel"
     ]
