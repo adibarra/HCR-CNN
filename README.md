@@ -31,21 +31,36 @@ Total training time: ~ 72 hours
 
 ##### Best Models
 
-> mean_val_accuracy: 0.994499, conv1: 256, conv2: 160, dense_units: 256, dropout_rate: 0.3, learning_rate: 0.000804, batch_size: 208
+![](./results/mnist/best-1.png)
 
-![](./results/mnist/208-best.png)
+![](./results/mnist/best-2.png)
 
-> mean_val_accuracy: 0.994083, conv1: 256, conv2: 128, dense_units: 224, dropout_rate: 0.6, learning_rate: 0.000590, batch_size: 96
-
-![](./results/mnist/96-best.png)
-
-> mean_val_accuracy: 0.994000, conv1: 128, conv2: 192, dense_units: 160, dropout_rate: 0.5, learning_rate: 0.001392, batch_size: 192
-
-![](./results/mnist/192-best.png)
+![](./results/mnist/best-3.png)
 
 
 ### Model 2: EMNIST Digits
 
-Below are the results for each of the best models trained on the EMNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the EMNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
 
-Total training time: ~ 
+Total trained models: ~ 3200
+Total training time: ~ 100 hours
+
+##### Best Models
+
+![](./results/emnist-digits/best-1.png)
+
+![](./results/emnist-digits/best-2.png)
+
+![](./results/emnist-digits/best-3.png)
+
+
+### Model 3: EMNIST Digits and Letters
+
+Below are the results for the 3 best performing models trained on the EMNIST digits and letters dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+
+Total trained models: 
+Total training time:
+
+##### Best Models
+
+currently training...
