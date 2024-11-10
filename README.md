@@ -56,11 +56,15 @@ Total training time: ~ 100 hours
 
 ### Model 3: EMNIST Digits and Letters
 
-Below are the results for the 3 best performing models trained on the EMNIST digits and letters dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the EMNIST balanced dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
 
-Total trained models: 
-Total training time:
+Total trained models: ~ 3200
+Total training time: ~ 50 hours
 
 ##### Best Models
 
-currently training...
+![](./results/emnist-balanced/best-1.png)
+
+![](./results/emnist-balanced/best-2.png)
+
+![](./results/emnist-balanced/best-3.png)
