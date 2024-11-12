@@ -20,11 +20,11 @@ Tuning of the hyperparameters was done using the [Keras Tuner](https://keras-tea
 
 ## Results
 
-There are three iterations of the model. The first of which was trained on the MNIST digits dataset, the second on the EMNIST digits dataset, and the third on a combination of the EMNIST digits and letters datasets.
+There are three iterations of the model. The first of which was trained on the MNIST digits dataset, the second on the EMNIST Digits dataset, and the third on the EMNIST Balanced (digits and letters) dataset.
 
 ### Model 1: MNIST Digits
 
-Below are the results for the 3 best performing models trained on the MNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the MNIST digits dataset. All models were trained for 30 epochs.
 
 Total trained models: ~ 7000
 Total training time: ~ 72 hours
@@ -40,7 +40,7 @@ Total training time: ~ 72 hours
 
 ### Model 2: EMNIST Digits
 
-Below are the results for the 3 best performing models trained on the EMNIST digits dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the EMNIST digits dataset. All models were trained for 30 epochs.
 
 Total trained models: ~ 3200
 Total training time: ~ 100 hours
@@ -56,7 +56,7 @@ Total training time: ~ 100 hours
 
 ### Model 3: EMNIST Digits and Letters
 
-Below are the results for the 3 best performing models trained on the EMNIST balanced dataset. Each of these models was trained with a different batch size. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the EMNIST balanced dataset. All models were trained for 30 epochs.
 
 Total trained models: ~ 3200
 Total training time: ~ 50 hours
