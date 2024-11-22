@@ -24,9 +24,9 @@ There are three iterations of the model. The first of which was trained on the M
 
 ### Model 1: MNIST Digits
 
-Below are the results for the 3 best performing models trained on the MNIST digits dataset. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the MNIST digits dataset.
 
-Total trained models: ~ 7000
+Total trained models: ~ 7000 \
 Total training time: ~ 72 hours
 
 ##### Best Models
@@ -40,9 +40,9 @@ Total training time: ~ 72 hours
 
 ### Model 2: EMNIST Digits
 
-Below are the results for the 3 best performing models trained on the EMNIST Digits dataset. All models were trained for 30 epochs.
+Below are the results for the 3 best performing models trained on the EMNIST Digits dataset.
 
-Total trained models: ~ 3200
+Total trained models: ~ 3200 \
 Total training time: ~ 100 hours
 
 ##### Best Models
@@ -58,7 +58,7 @@ Total training time: ~ 100 hours
 
 Below are the results for the 3 best performing models trained on the EMNIST Balanced dataset.
 
-Total trained models: ~ 6200
+Total trained models: ~ 6200 \
 Total training time: ~ 180 hours
 
 ##### Best Models
