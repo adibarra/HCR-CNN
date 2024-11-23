@@ -59,7 +59,7 @@ Total training time: ~ 100 hours
 Below are the results for the 3 best performing models trained on the EMNIST Balanced dataset.
 
 Total trained models: ~ 6200 \
-Total training time: ~ 180 hours
+Total training time: ~ 195 hours
 
 ##### Best Models
 
