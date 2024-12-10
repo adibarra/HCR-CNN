@@ -6,11 +6,11 @@ This project is a machine learning project that uses convolutional neural networ
 
 ## Datasets
 
-- The [MNIST](https://www.tensorflow.org/datasets/catalog/mnist) dataset is a collection of 28x28 pixel grayscale images of handwritten digits (0-9). The dataset contains 60,000 training images and 10,000 test images.
+- The [MNIST](https://www.tensorflow.org/datasets/catalog/mnist) dataset is a collection of 28x28 pixel grayscale images of handwritten digits (10 classes: 0-9). The dataset contains 60,000 training images and 10,000 test images.
 
-- The [EMNIST Digits](https://www.tensorflow.org/datasets/catalog/emnist) dataset is an extension of the MNIST dataset that contains 28x28 pixel grayscale images of handwritten digits (0-9). The dataset contains 240,000 training images and 40,000 test images.
+- The [EMNIST Digits](https://www.tensorflow.org/datasets/catalog/emnist) dataset is an extension of the MNIST dataset that contains 28x28 pixel grayscale images of handwritten digits (10 classes: 0-9). The dataset contains 240,000 training images and 40,000 test images.
 
-- The [EMNIST Letters](https://www.tensorflow.org/datasets/catalog/emnist) dataset is an extension of the MNIST dataset that contains 28x28 pixel grayscale images of handwritten letters (A-Z). The dataset contains 88,800 training images and 14,800 test images.
+- The [EMNIST Balanced](https://www.tensorflow.org/datasets/catalog/emnist) dataset is an extension of the MNIST dataset that contains 28x28 pixel grayscale images of handwritten digits and letters (47 classes: 0-9, A-Z, a-h, n, q, r, t). The dataset contains 112,800 training images and 18,800 test images.
 
 ## Methodology
 
@@ -26,7 +26,7 @@ There are three iterations of the model. The first of which was trained on the M
 
 Below are the results for the 3 best performing models trained on the MNIST digits dataset.
 
-Total trained models: ~ 7000 \
+Total trained models: 7361 \
 Total training time: ~ 72 hours
 
 ##### Best Models
@@ -42,7 +42,7 @@ Total training time: ~ 72 hours
 
 Below are the results for the 3 best performing models trained on the EMNIST Digits dataset.
 
-Total trained models: ~ 3200 \
+Total trained models: ~ 3677 \
 Total training time: ~ 100 hours
 
 ##### Best Models
@@ -58,7 +58,7 @@ Total training time: ~ 100 hours
 
 Below are the results for the 3 best performing models trained on the EMNIST Balanced dataset.
 
-Total trained models: ~ 6200 \
+Total trained models: ~ 6292 \
 Total training time: ~ 195 hours
 
 ##### Best Models
